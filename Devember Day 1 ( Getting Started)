@@ -1,0 +1,59 @@
+Decided to go with Automate the Boring Stuff by Al Sweigart
+http://1.droppdf.com/files/5iHzx/automate-the-boring-stuff-with-python-2015-.pdf
+
+Putting Python 3 code onto IDLE for now
+------------------------------------------
+Data Types
+------------------------------------------
+There are 3 Data types.
+Integer, Float, and string.
+
+Integers- are numbers that do not have a decimal point.
+Examples include: 1,2,3,4,5,6,7,8,9,0 and also -1, -2, etc.
+
+Floats- are numbers that have a decimal point.
+Examples include: 1.24, 2.56, 16.4, 10.5
+
+Strings- are anything that are betwwen 2 quotation marks.
+Numbers in quotes count as strings
+Examples include: "apple", "cat", "12", and "12.5"
+
+|Vocabulary|
+String concantenation- when you add two string together.
+Examples include: "cat" + " dog" = "cat dog"
+
+String replication- when you make more than one of the same string.
+Examples include: "dog" * 5 = "dogdogdogdogdog"
+------------------------------------------
+Variables
+------------------------------------------
+Variables are letters that contain a value
+apple = 12        is a variable
+apple2 = "carrot"  is a variable
+
+to use variables, you just type the variable name.
+typing: apple will give you 12.
+typing: apple2 will give you carrot.
+
+| RULES| From Automate the Boring Stuff
+1. It can be only one word.
+2. It can use only letters, numbers, and the underscore (_) character.
+3. It can’t begin with a number
+------------------------------------------
+Mathematics
+------------------------------------------
+Addition is: +
+Subtraction is: -
+Multiplication is: *
+Division is: /
+
+Other Mathematic Symbols
+exponent is: **
+remainder is: %
+integer devision is: //
+
+The Python language is like a scientific calculator. It does math in order of operations(PEMDAS).
+So 2+4*5 is 22.
+
+This is it for now. 12/1/2017
+
