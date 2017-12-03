@@ -1,0 +1,124 @@
+Book used today: Automate the Boring Stuff by Al Sweigart
+------------------------------------------
+Free PDF of Automate the Boring Stuff
+http://1.droppdf.com/files/5iHzx/automate-the-boring-stuff-with-python-2015-.pdf
+------------------------------------------
+             | DAY 2 |
+------------------------------------------
+Yesterday, I learned about basic things that Python can do.
+Today, I am going to learn about functions.
+------------------------------------------
+Print Function
+------------------------------------------
+The print function is: print("Hello World")
+Whatever inside the quotes in the function is going to get printed out.
+So - print("Hello World") = Hello World
+------------------------------------------
+#tip
+The hashtag or pound(#) is used for comments.
+When you write something like: #this is a comment
+it will not register as a code. It is pretty useful, 
+because you can use it to explain what your code does.
+------------------------------------------
+Input function
+------------------------------------------
+The input function is: input()
+If you put the input function into a variable such as myName,
+whatever the user types on the keyboard will be myName.
+When I typed Justin, Justin went into myName.
+Example:
+>>> myName=input()
+Justin
+>>> myName
+'Justin'
+>>> 
+------------------------------------------
+Print function + Input function
+------------------------------------------
+In Automate the Boring Stuff, you get to use the input function 
+with the print function by:
+>>> myName=input()
+Justin
+>>> print('It is good to meet you, ' + myName)
+It is good to meet you, Justin
+>>> 
+------------------------------------------
+Len function
+------------------------------------------
+The len function is a function that counts the number of letters in a string.
+An example is: 
+>>> len("apple")
+5
+>>> 
+------------------------------------------
+Converting between the str(), int(), and float() functions
+------------------------------------------
+You cannot use an integer as a string, for example:
+>>> print("I am" + 13)
+------------------------------------------
+will give:
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    print("I am" + 13)
+TypeError: must be str, not int
+>>> 
+------------------------------------------
+In order to make the function work, you have to convert the 
+integer ( which is 13) to a string.
+------------------------------------------
+To convert the integer into a string, you type in:
+str(13)
+------------------------------------------
+This will conver the integer into a string.
+An example:
+>>> str(13)
+'13'
+>>> print("I am " + str(13))
+I am 13
+>>> 
+------------------------------------------
+When I was playing with the code, I took out str(13) before the print statement.
+When I typed it in, it worked. So you can just type in:
+>>> print("I am " + str(13))
+
+which will give you: I am 13
+------------------------------------------
+You can also change a integer into a string, a float into a string, an integer into a string, and many more.
+
+A list of examples below are from Automate the Boring Stuff
+>>> str(0)
+'0'
+>>> str(-3.14)
+'-3.14'
+>>> int('42')
+42
+>>> int('-99')
+-99
+>>> int(1.25)
+1
+>>> int(1.99)
+1
+>>> float('3.14')
+3.14
+>>> float(10)
+10.0
+
+------------------------------------------
+Multiplying inputs
+------------------------------------------
+>>> spam = input()   
+101                      # spam is now 101
+>>> spam = int(spam)     # changing 101 into a string
+>>> spam * 10 / 5        # 101*10/5
+202.0                    # answer
+>>> 
+------------------------------------------
+You can also multiply strings ( but you can't divide strings)
+>>> spam = input()   
+string                        
+>>> spam * 10     
+stringstringstringstringstring                   
+>>>
+------------------------------------------
+This is it for now. 12/2/2017
+Pg. 51 will be covered tomorrow.
