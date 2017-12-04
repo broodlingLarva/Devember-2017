@@ -1,0 +1,13 @@
+------------------------------------------
+      | DAY 3   if,else, elif|
+------------------------------------------
+if statement
+------------------------------------------
+An example of an if statement is:
+
+age = 18
+
+if age < 18:
+     print(' You are a minor')
+------------------------------------------
+if your age is less than 18, then you are a minor.
