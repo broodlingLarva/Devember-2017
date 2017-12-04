@@ -11,7 +11,20 @@ if age < 18:
      print(' You are not 18 years old yet')
 ------------------------------------------
 if your age is less than 18, then you are not 18 years old.
+
 ------------------------------------------
 else statement
 ------------------------------------------
-an else statement is used when the boolean is false
+An else statement is used when the if statement is false
+An example of an else statement is:
+
+age = input()
+
+if age >= 18
+     print('You are over 18 years old.')
+else:
+     print('You are less than 18 years old.')
+
+------------------------------------------
+elif statement
+------------------------------------------
