@@ -8,6 +8,10 @@ An example of an if statement is:
 age = 18
 
 if age < 18:
-     print(' You are a minor')
+     print(' You are not 18 years old yet')
 ------------------------------------------
-if your age is less than 18, then you are a minor.
+if your age is less than 18, then you are not 18 years old.
+------------------------------------------
+else statement
+------------------------------------------
+an else statement is used when the boolean is false
