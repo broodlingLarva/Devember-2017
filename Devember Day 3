@@ -1,0 +1,39 @@
+Book used today: Automate the Boring Stuff by Al Sweigart
+------------------------------------------
+Free PDF of Automate the Boring Stuff
+http://1.droppdf.com/files/5iHzx/automate-the-boring-stuff-with-python-2015-.pdf
+------------------------------------------
+             | DAY 3 |
+------------------------------------------
+After finishing the quiz in the book, I am now going to learn about Booleans.
+Booleans are basically True and false.
+------------------------------------------
+There is also comparison operators which compares two values and then moves it to 
+a boolean value.
+The following is a list of comparison operators
+------------------------------------------
+Operator Meaning
+== Equal to
+!= Not equal to
+< Less than
+> Greater than
+<= Less than or equal to
+>= Greater than or equal to
+------------------------------------------
+When you do something like: 5==5
+the outcome will be True, because 5 is equal to 5.
+I you put in 5==4, the outcome will be False, because
+5 is not equal to 4.
+------------------------------------------
+You can also make the statement True, when the two Booleans are True.
+>>> (1 == 2) or (2 == 2)
+True
+>>> (1 == 2) or (3 == 2)
+False
+>>> 
+------------------------------------------
+if name == 'Justin':
+print('Justin.')
+If the name is Justin, then it will print Justin.
+------------------------------------------
+I will make a separate section on if, else, and elif on another file.
