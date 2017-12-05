@@ -20,7 +20,7 @@ An example of an else statement is:
 
 age = input()
 
-if age >= 18
+if int(age)>= 18
      print('You are over 18 years old.')
 else:
      print('You are less than 18 years old.')
