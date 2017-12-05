@@ -28,3 +28,15 @@ else:
 ------------------------------------------
 elif statement
 ------------------------------------------
+An example of an elif function is:
+if name == 'Alice':
+print('Hi, Alice.')
+elif age < 12:
+print('You are not Alice, kiddo.')
+u elif age > 100:
+print('You are not Alice, grannie.')
+elif age > 2000:
+print('Unlike you, Alice is not an undead, immortal vampire.')
+------------------------------------------
+an elif function is basically like an else statement, 
+but there are limitations.
