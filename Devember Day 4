@@ -1,0 +1,38 @@
+Book used today: Automate the Boring Stuff by Al Sweigart
+and Python Crash Course by Eric Matthes.
+------------------------------------------
+Free PDF of Automate the Boring Stuff
+http://1.droppdf.com/files/5iHzx/automate-the-boring-stuff-with-python-2015-.pdf
+Free PDF of Python Crash Course
+http://ap-n.us/books/Programming/Python%20Crash%20Course.pdf
+------------------------------------------
+             | DAY 4 |
+------------------------------------------
+A while loop is a code which make something repeat over and over again.
+An example that I found in the book:
+name = ''
+while name != 'your name':
+  print('Please type your name.')
+name = input()
+print('Thank you!')
+------------------------------------------
+It will keep printing out "Please type your name"
+until the user types their name.
+------------------------------------------
+range() function
+------------------------------------------
+A range function is basically a while loop, 
+but instead of looping forever, it has a 
+set amount of times that it can do.
+An example of a range function:
+for value in range(1,5):
+print(value)
+------------------------------------------
+You can also make a list of numbers with the 
+range function.
+
+numbers = list(range(1,6))
+print(numbers)
+
+>>> [1, 2, 3, 4, 5]
+------------------------------------------
