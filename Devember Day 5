@@ -1,0 +1,28 @@
+Book used today: Python Crash Course by Eric Matthes.
+------------------------------------------
+Free PDF of Python Crash Course
+http://ap-n.us/books/Programming/Python%20Crash%20Course.pdf
+------------------------------------------
+             | DAY 4 |
+------------------------------------------
+Lists
+------------------------------------------
+You can make a list by:
+names = ['Ashley', 'Miles', 'Justin']
+print(names)
+------------------------------------------
+You can add things to the list by:
+names.append('Heather')
+------------------------------------------
+You can also insert something into a list in any given position by:
+names.insert(0, 'Jonathan')
+------------------------------------------
+You can delete an item from a list by:
+del names[0]
+
+0 is the first value in the list, then goes by 1,2,3, etc.
+------------------------------------------
+You can find the length of a list by:
+len(names)
+------------------------------------------
+I will be doing code academy also.
